@@ -1,13 +1,31 @@
 body{
-    background-color: beige;
+    background-color: rgb(236, 215, 197);
 }
 
 .t1{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
 }
 
 p{
     text-align: center;
-    color: darkblue;
+    color: rgb(83, 10, 10);
 }
 
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 500px;
+}
+
+.link{
+    color: rgb(138, 61, 34);
+}
+
+.home{
+    text-align: right;
+    text-size-adjust: 20px;
+}
