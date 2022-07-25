@@ -11,6 +11,8 @@ body{
 p{
     text-align: center;
     color: rgb(83, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
 }
 
 #img{
@@ -22,10 +24,33 @@ p{
 }
 
 .link{
-    color: rgb(138, 61, 34);
+    color: rgb(4, 20, 54);
 }
 
-.home{
-    text-align: right;
-    text-size-adjust: 20px;
+button {
+    display: block;
+    background-image: url(/resources/home.png);
+    background-size:cover;
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+li{
+    color: rgb(83, 10, 10);
+    font-size: 17px;
+}
+
+h3{
+    color:rgb(71, 14, 14);
+    font-size: 20px;
+}
+
+h4{
+    color: darkblue;
 }
