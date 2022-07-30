@@ -27,7 +27,7 @@ p{
     color: rgb(4, 20, 54);
 }
 
-button {
+button .home{
     display: block;
     background-image: url(/resources/home.png);
     background-size:cover;
@@ -37,6 +37,7 @@ button {
     border: none;
     transition: all 0.5s;
     cursor: pointer;
+    border-radius: 40%;
 }
 
 
