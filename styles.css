@@ -40,8 +40,18 @@ button .home{
     border-radius: 40%;
 }
 
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
 
-
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 #list{
     display: block;
     width: 300px;
